@@ -3,7 +3,8 @@ package ATM_Console_Application.Notes;
 public class Notes implements Cloneable{
     private   String notes;
     private  long count;
-    protected Notes(String notes,long count){
+    protected Notes(String notes,long count)//to get notes and count
+    {
         this.notes=notes;
         this.count=count;
     }
@@ -21,7 +22,7 @@ public class Notes implements Cloneable{
         return count;
     }
     @Override
-    public Object clone() throws CloneNotSupportedException
+    public Object clone() throws CloneNotSupportedException//to get the duplicate of notes
     {
         return super.clone();
     }

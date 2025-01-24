@@ -4,7 +4,8 @@ public class Transaction {
     public String performedBy;
     public String type;
     public double amount;
-    public Transaction(String performerName,String performType,double enterAmount){
+    public Transaction(String performerName,String performType,double enterAmount)//to add to performerName,performType
+    {
         this.performedBy=performerName;
         this.type=performType;
         this.amount=enterAmount;
@@ -18,7 +19,8 @@ public class Transaction {
     public double getAmount(){
         return amount;
     }
-    public  String getTransaction(){
+    public  String getTransaction()
+    {
         String return_value=getPerformedBy()+getType()+getAmount();
         return return_value;
     }
