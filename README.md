@@ -69,7 +69,7 @@ java Main
 
 ---
 
-## 📸 Demo Screenshot
+## 📸 Class Structure
 ![Screenshot 2025-05-04 133845](https://github.com/user-attachments/assets/c6fcb82d-b6b1-4658-bc22-b2d3755dc7c1)
 
 
