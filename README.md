@@ -1,4 +1,3 @@
-Here’s a complete **GitHub README prompt** tailored for your Java-based **Console-level ATM Machine Project**, highlighting your use of **HashMap**, **ArrayList**, and **POJO classes** for data management:
 
 ---
 
